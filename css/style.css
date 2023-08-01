@@ -72,6 +72,21 @@ body{
     padding-left: 15px;
 }
 
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    visibility: hidden;
+   
+}
+
 .remember-forgot a {
     font-size: 1em;
     color:  #000;
@@ -123,3 +138,26 @@ body{
     text-decoration: underline;
 }
 
+/* Error and Success = Tratado no JS */
+.form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
