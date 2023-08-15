@@ -1,5 +1,4 @@
-const email = document.getElementById("email");
-const password = document.getElementById("password");
+const email= document.getElementById("email");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -7,24 +6,15 @@ form.addEventListener("submit", (e) => {
     checkInputs();
 });
 
-function  checkInputs() {
+function checkInputs(){
     const emailValue = email.value;
-    const passwordValue = password.value;
 
     if(emailValue === ""){
-        setErrorFor(email,"O email é obrigatório para fazer login...");
+        setErrorFor(email, "O email correto é necessário pra recuperar a senha!");
     }else if(!checkEmail(emailValue)){
-        setErrorFor(email,"Por favor, digite um email válido!");
+        setErrorFor(email,"Digite um endereço de email válido...");
     }else{
-        setSuccessFor(email)
-    }
-
-    if(passwordValue ===""){
-        setErrorFor(password, "A senha é obrigatória!")
-    }else if(passwordValue.length < 8){
-        setErrorFor(password, "Senha tem que ter no mínimo 8 caracteres!")
-    }else{
-        setSuccessFor(password);
+        setSuccessFor(email);
     }
 }
 
