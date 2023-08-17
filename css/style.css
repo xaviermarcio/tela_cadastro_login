@@ -182,6 +182,11 @@ body{
     background-size: 100% 2px;
 }
 
+abbr, .title{
+    text-decoration: none;
+    
+}
+
 /* Error and Success = Tratado no JS */
 .form-control.success input {
     border-color: #2ecc71;
