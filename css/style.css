@@ -179,6 +179,7 @@ body{
 }
 
 .login-register p a:hover{
+    /*sublinhado*/
     background-size: 100% 2px;
 }
 
