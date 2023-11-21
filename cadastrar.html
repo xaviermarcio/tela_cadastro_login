@@ -17,7 +17,7 @@
         <form action="login.html" class="form" id="form">
             <div class="form-control">
                 <label for="username">Nome</label>
-                <input type="text"  id="username" placeholder="Digite seu nome de usuário..."/>
+                <input type="text"  id="username" placeholder="Digite seu nome de usuário..." oninput="checkInputs()"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
@@ -25,14 +25,14 @@
 
             <div class="form-control">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Digite seu email.." />
+                <input type="text" id="email" placeholder="Digite seu email.." oninput="checkInputs()"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
             <div class="form-control">
                 <label for="email-confirmation">Confirmar email</label>
-                <input type="text" id="email-confirmation" placeholder="Confirme seu email..." />
+                <input type="text" id="email-confirmation" placeholder="Confirme seu email..." oninput="checkInputs()"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
@@ -40,14 +40,14 @@
   
             <div class="form-control">
                 <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="Digite sua senha..."/>
+                <input type="password" id="password" placeholder="Digite sua senha..." oninput="checkInputs()"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
             <div class="form-control">
                 <label for="password-confirmation">Confirmar senha</label>
-                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..."/>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..." oninput="checkInputs()"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
