@@ -1,64 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    background:  url('../images/gaspar-zaldo-lxWFAB-eyi4-unsplash.jpg');
+    background: url('../images/gaspar-zaldo-lxWFAB-eyi4-unsplash.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.container{
+.container {
     background-color: #fff;
-    box-shadow:  0 2px 5px rgba(45, 43, 43, 0.3);
+    box-shadow: 0 2px 5px rgba(45, 43, 43, 0.3);
     border: #6c6b6d;
     width: 400px;
     max-width: 100%;
-    height:auto;  
-    transition: width 2s, height 2s, transform 2s; 
+    height: auto;
+    transition: width 2s, height 2s, transform 2s;
 }
 
-.header, h2{
-    background-color:  #6c6b6d;
+.header,
+h2 {
+    background-color: #6c6b6d;
     padding: 5px;
     text-align: start;
     color: #fff;
 }
 
-.form{
+.form {
     padding: 20px;
 }
 
-.form-control{
+.form-control {
     margin-bottom: 5px;
     padding-bottom: 17px;
     position: relative;
 }
 
-.form-control label{
+.form-control label {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-.form-control input{
+.form-control input {
     border: 2px solid #f0f0f0;
     display: block;
     border-radius: 8px;
     font-size: 14px;
     width: 100%;
-    padding:10px;
-    outline:none;
-    text-indent: 2em;/*Margem*/ 
+    padding: 10px;
+    outline: none;
+    text-indent: 2em;
+    /*Margem*/
 }
+
 /*Tremer inputs
 .form-control, input:focus {
     animation: treme 0.1s;
@@ -66,22 +69,36 @@ body{
 }*/
 /*Tremer inputs*/
 @keyframes treme {
-    0% {margin-left: 0;}
-    25% {margin-left: 5px;}
-    50% {margin-left: 0;}
-    75% {margin-left: -5px;}
-    100% {margin-left: 0;}
+    0% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: 5px;
+    }
+
+    50% {
+        margin-left: 0;
+    }
+
+    75% {
+        margin-left: -5px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
 }
 
-.form-control input:focus{
-    box-shadow:  0 2px 5px rgba(45, 43, 43, 0.7);
+.form-control input:focus {
+    box-shadow: 0 2px 5px rgba(45, 43, 43, 0.7);
 }
 
-.form-control input::placeholder{
+.form-control input::placeholder {
     padding-left: 2px;
 }
 
-.form-control .icon{
+.form-control .icon {
     position: absolute;
     top: 40px;
     padding-left: 15px;
@@ -94,20 +111,21 @@ body{
     visibility: hidden;
 }
 
-.form-control small{
+.form-control small {
     position: absolute;
     bottom: -4px;
     left: 0;
     visibility: hidden;
     margin-top: 3px;
 }
-.remember-forgot{
+
+.remember-forgot {
     font-size: 1em;
     color: #000;
     text-align: center;
     font-weight: 400;
     margin: 10px 0 10px;
-     
+
 }
 
 .remember-forgot p a {
@@ -119,7 +137,7 @@ body{
     content: "";
     font-weight: 500;
     font-size: 1em;
-    text-decoration:none;
+    text-decoration: none;
     cursor: pointer;
     /*Fim*/
     justify-content: end;
@@ -128,14 +146,15 @@ body{
     font-weight: 600;
     padding-left: 5px;
 }
-.remember-forgot a:hover{
+
+.remember-forgot a:hover {
     background-size: 100% 2px;
 }
 
-.btn{
+.btn {
     width: 100%;
     height: 45px;
-    background:  #6c6b6d;
+    background: #6c6b6d;
     border: none;
     border-radius: 2px;
     outline: none;
@@ -146,12 +165,12 @@ body{
     margin-top: 5px;
 }
 
-.btn:hover{
-    background:#55a85d;
+.btn:hover {
+    background: #55a85d;
     letter-spacing: 1.5px;
 }
 
-.login-register{
+.login-register {
     font-size: 1em;
     color: #000;
     text-align: center;
@@ -159,7 +178,7 @@ body{
     margin: 10px 0 10px;
 }
 
-.login-register p a{
+.login-register p a {
     /*sublinhado*/
     background-image: linear-gradient(90deg, #54ea75, #55a85d);
     background-repeat: no-repeat;
@@ -169,7 +188,7 @@ body{
     content: "";
     font-weight: 500;
     font-size: 1em;
-    text-decoration:none;
+    text-decoration: none;
     cursor: pointer;
     /*Fim*/
     color: #000;
@@ -178,41 +197,42 @@ body{
     padding-left: 5px;
 }
 
-.login-register p a:hover{
+.login-register p a:hover {
     /*sublinhado*/
     background-size: 100% 2px;
 }
 
-abbr, .title{
+abbr,
+.title {
     text-decoration: none;
-    
+
 }
 
 /* Error and Success = Tratado no JS */
 .form-control.success input {
     border-color: #2ecc71;
 }
-  
+
 .form-control.error input {
     border-color: #e74c3c;
     animation: treme 0.1s;
     animation-iteration-count: 3;
 }
-  
+
 .form-control.success i.fa-check-circle {
     color: #2ecc71;
     visibility: visible;
 }
-  
+
 .form-control.error i.fa-exclamation-circle {
     color: #e74c3c;
     visibility: visible;
     animation: treme 0.3s;
     animation-iteration-count: 5;
 }
-  
+
 .form-control.error small {
     visibility: visible;
     color: #e74c3c;
-    
+
 }
