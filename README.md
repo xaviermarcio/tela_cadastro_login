@@ -1,36 +1,27 @@
+# Sistema de Cadastro Frontend
 
-# Tela de login
+Este projeto consiste em um sistema de autenticação simples com funcionalidades de cadastro, login e recuperação de e-mail. Cada funcionalidade é implementada em uma página HTML separada: `cadastrar.html`, `login.html` e `recuperar_email.html`. Além disso, há arquivos JavaScript dedicados para realizar a validação dos campos em cada uma dessas páginas. Um detalhe importante e que um projeto apenas FRONTEND.
 
-Mini projeto em front-end usado HTML, CSS e JavaScript. Todas as telas possuem validação back-end com JS.
-## Autores
+## Funcionalidades
 
-https://github.com/xaviermarcio
+- **Cadastro (`cadastrar.html`):** Permite aos usuários criar uma conta fornecendo informações necessárias. A validação dos campos é realizada pelo arquivo JavaScript correspondente.
 
-    
-## Rodando localmente
+- **Login (`login.html`):** Permite aos usuários autenticar-se usando credenciais previamente cadastradas. A validação dos campos é realizada pelo arquivo JavaScript correspondente.
 
-Clone o projeto
+- **Recuperação de E-mail (`recuperar_email.html`):** Fornece uma funcionalidade para os usuários recuperarem seu e-mail. A validação dos campos é realizada pelo arquivo JavaScript correspondente.
 
+## Tecnologias Utilizadas
 
-https://github.com/xaviermarcio/tela_cadastro_login
+- **HTML5:** Linguagem de marcação para estruturar o conteúdo das páginas.
 
-
-Baixe o diretório com os arquivos e execute acordo com o seu editor de código.
-
-
+- **CSS3:** Linguagem de estilo para estilizar a interface do usuário.
+  
+- **JavaScript:** Linguagem de programação para adicionar comportamento interativo às páginas. Cada funcionalidade possui seu próprio arquivo JavaScript para validação de campos.
 
 ## Aprendizados
 
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-
-Projetos simples como esse. São bons para relembrar e aprender coisas novas sobre HTML,CSS e JavaScript.
-## Funcionalidades
-
-Login, cadastro de usuário com validações dos inputs e
-recuperação de senha.
-
+Este projeto oferece a oportunidade de aplicar conhecimentos em HTML5, CSS3 e JavaScript, especialmente na implementação de funcionalidades de autenticação.
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de xaviermarcio80@gmail.com
-
+Se você tiver algum feedback ou sugestão, por favor, nos avise através de xaviermarcio80@gmail.com.
